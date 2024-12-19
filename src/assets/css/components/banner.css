@@ -1,0 +1,52 @@
+.component-banner {
+  background-color: rgba(45, 45, 45, 1);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height: 400px;
+  border-radius: 0 0 30px 30px;
+}
+
+.banner-apresentation {
+  color: white;
+  padding-inline: 80px;
+  gap: 40px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.banner-text {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 8px;
+  width: 750px;
+  justify-content: center;
+}
+
+.image-banner {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 525px;
+}
+
+.image-banner-scroll {
+  height: 100px;
+  width: 72px;
+}
+
+.banner-text-titulo {
+  font-weight: bolder;
+  font-size: 57px;
+}
+
+.banner-text-descricao {
+  font-size: 24px;
+  line-height: 27.02px;
+  letter-spacing: 2px;
+  font-weight: 100;
+}

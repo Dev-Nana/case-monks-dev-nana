@@ -1,0 +1,41 @@
+.component-gallery {
+  padding: 0 80px;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.gallery-text {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+}
+
+.gallery-text-titulo {
+  font-weight: 500;
+  font-size: 45px;
+}
+
+.gallery-text-descricao {
+  font-weight: 100;
+  font-size: 28px;
+}
+
+.gallery-column1{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  gap: 34px;
+}
+
+.gallery-column2{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  gap: 5px;
+}
+
+.image-gallery{
+  display: flex;
+  width: 100%;
+}

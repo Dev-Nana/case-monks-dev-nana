@@ -1,0 +1,29 @@
+.component-header {
+  background-color: rgba(45, 45, 45, 1);
+  padding: 32px 80px 64px 80px;
+  gap: 45px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.header-logo {
+
+}
+
+.image-header-logo {
+  width: 160px;
+  height: 28px;
+}
+
+.header-menu {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  color: white;
+  gap: 50px;
+  font-weight: 100;
+  font-size: 23px;
+  line-height: 23.56px;
+}

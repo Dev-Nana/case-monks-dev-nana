@@ -1,0 +1,116 @@
+.component-contact{
+  background-color: rgba(45, 45, 45, 1);
+  padding: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.image-contact img{
+  width: 320px;
+}
+
+.contact{
+  background-color: rgba(234, 232, 228, 1);
+  padding: 30px;
+  width: 900px;
+  height: 500px;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.contact-text{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-text-titulo{
+  font-size: 43px;
+  font-weight: 500;
+}
+
+.contact-text-descricao{
+  font-size: 21px;
+  font-weight: 100;
+}
+
+.contact-text-asterisco{
+  font-size: 18px;
+  font-weight: 100;
+}
+
+.contact-form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.contact-form-input{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 18px;
+}
+
+.contact-input{
+  width: 400px;
+  height: 45px;
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+  font-size: 19px;
+  font-weight: lighter;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact-input-result{
+  width: 220px;
+  height: 45px;
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+  font-size: 19px;
+  font-weight: lighter;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact-form-verification{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 24px;
+  width: 100%;
+}
+
+.contact-form-verification-count{
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(223, 220, 213, 1);
+  color: rgba(125, 38, 201, 1);
+  font-size: 20px;
+  font-weight: 500;
+  padding: 10px 20px;
+  justify-content: center;
+  width: 200px;
+}
+
+.contact-form-verification-count-operation{
+  padding-inline: 20px;
+  color: black;
+}
+
+.contact-form-button{
+  background-color: rgba(223, 187, 254, 1);
+  color: rgba(45, 45, 45, 1);
+  width: 200px;
+  border-radius: 5px;
+  padding: 13px 30px;
+  border: none;
+  font-size: 18px;
+}

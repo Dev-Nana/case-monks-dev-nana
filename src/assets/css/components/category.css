@@ -1,0 +1,29 @@
+.component-category{
+  display: flex;
+  flex-direction: column;
+  padding: 50px 80px;
+}
+
+.category-text-titulo{
+  font-weight: 500;
+  font-size: 45px;
+}
+
+.categories{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  gap: 28px;
+}
+
+.category{
+  border: solid rgba(125, 38, 201, 1) 2px;
+  border-radius: 32px;
+  padding: 10px 40px;
+  color: rgba(125, 38, 201, 1);
+  font-size: 20px;
+  font-weight: 500;
+}

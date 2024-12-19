@@ -1,0 +1,21 @@
+@import './components/header.css';
+@import './components/banner.css';
+@import './components/section.css';
+@import './components/gallery.css';
+@import './components/publicity.css';
+@import './components/category.css';
+@import './components/cards.css';
+@import './components/contact.css';
+@import './components/footer.css';
+
+body{
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  background-color: rgba(234, 232, 228, 1);
+  color: rgba(45, 45, 45, 1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

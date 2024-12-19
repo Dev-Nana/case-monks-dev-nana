@@ -1,0 +1,39 @@
+.component-publicity{
+  padding: 80px;
+  display: flex;
+}
+
+.publicity{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(60, 12, 96, 1);
+  padding: 50px;
+  border-radius: 30px;
+}
+
+.publicity-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+  gap: 10px;
+}
+
+.publicity-text-titulo {
+  font-weight: 500;
+  font-size: 45px;
+}
+
+.publicity-text-descricao {
+  font-weight: 100;
+  font-size: 28px;
+  width: 90%;
+}
+
+.publicity-images{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
