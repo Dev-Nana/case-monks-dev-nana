@@ -1,15 +1,10 @@
 .component-header {
-  background-color: rgba(45, 45, 45, 1);
   padding: 32px 80px 64px 80px;
   gap: 45px;
   display: flex;
   align-items: center;
   flex-direction: row;
   flex-wrap: nowrap;
-}
-
-.header-logo {
-
 }
 
 .image-header-logo {
@@ -26,4 +21,38 @@
   font-weight: 100;
   font-size: 23px;
   line-height: 23.56px;
+}
+
+.image-header-menu {
+  display: none;
+  cursor: pointer;
+}
+
+@media (max-width: 992px) {
+  .component-header {
+    padding: 32px 20px 64px 20px;
+  }
+
+  .header-menu {
+    display: none;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    background-color: rgba(223, 187, 254, 1);
+    color: black;
+    width: 100%;
+    padding: 20px;
+    border-radius: 5px;
+    z-index: 10;
+  }
+
+  .image-header-menu {
+    display: flex;
+  }
+
+  .header-menu.active {
+    display: flex;
+  }
 }

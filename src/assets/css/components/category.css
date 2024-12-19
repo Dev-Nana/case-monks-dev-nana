@@ -1,15 +1,15 @@
-.component-category{
+.component-category {
   display: flex;
   flex-direction: column;
   padding: 50px 80px;
 }
 
-.category-text-titulo{
+.category-text-titulo {
   font-weight: 500;
   font-size: 45px;
 }
 
-.categories{
+.categories {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -19,11 +19,102 @@
   gap: 28px;
 }
 
-.category{
+.category {
   border: solid rgba(125, 38, 201, 1) 2px;
   border-radius: 32px;
   padding: 10px 40px;
   color: rgba(125, 38, 201, 1);
   font-size: 20px;
   font-weight: 500;
+}
+
+@media (max-width: 992px) {
+
+  .component-category {
+
+    padding: 30px 40px;
+
+  }
+
+
+  .category-text-titulo {
+
+    font-size: 36px;
+
+  }
+
+
+  .categories {
+
+    padding: 30px;
+
+    gap: 20px;
+
+  }
+
+
+  .category {
+
+    padding: 10px 20px;
+
+    font-size: 18px;
+
+  }
+
+}
+
+
+@media (max-width: 768px) {
+
+  .category-text-titulo {
+
+    font-size: 30px;
+
+  }
+
+
+  .categories {
+
+    gap: 15px;
+
+  }
+
+
+  .category {
+
+    padding: 10px 15px;
+
+    font-size: 16px;
+
+  }
+
+}
+
+
+@media (max-width: 480px) {
+
+  .category-text-titulo {
+
+    font-size: 24px;
+
+  }
+
+
+  .categories {
+
+    padding: 20px;
+
+    gap: 10px;
+
+  }
+
+
+  .category {
+
+    padding: 10px 10px;
+
+    font-size: 14px;
+
+  }
+
 }

@@ -14,3 +14,11 @@ document.getElementById("verifyButton").addEventListener("click", function () {
     resultado.style.color = "red";
   }
 });
+
+const menuToggle = document.getElementById("menu-toggle");
+const headerMenu = document.getElementById("header-menu");
+
+menuToggle.addEventListener("click", () => {
+  headerMenu.classList.toggle("active");
+});
+
